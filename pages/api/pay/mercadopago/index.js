@@ -35,11 +35,11 @@ export default function PayWithMercadoPago(req, res) {
                 external_reference: 'santiagorv246@gmail.com',
                 back_urls: {
                     success:
-                        'https://checkout-pro-certification-in-mercado-pago.vercel.app/payment/success',
+                        'https://checkout-pro-certification-in-mercado-pago-7l0dkvdrc-santisite.vercel.app/payment/success',
                     pending:
-                        'https://checkout-pro-certification-in-mercado-pago.vercel.app/payment/pending',
+                        'https://checkout-pro-certification-in-mercado-pago-7l0dkvdrc-santisite.vercel.app/payment/pending',
                     failure:
-                        'https://checkout-pro-certification-in-mercado-pago.vercel.app/payment/failure'
+                        'https://checkout-pro-certification-in-mercado-pago-7l0dkvdrc-santisite.vercel.app/payment/failure'
                 },
                 auto_return: 'approved',
                 payment_methods: {
@@ -47,7 +47,7 @@ export default function PayWithMercadoPago(req, res) {
                     installments: 6
                 },
                 notification_url:
-                    'https://checkout-pro-certification-in-mercado-pago.vercel.app/api/pay/mercadopago/notification'
+                    'https://checkout-pro-certification-in-mercado-pago-7l0dkvdrc-santisite.vercel.app/api/pay/mercadopago/notification'
             }
             mercadopago.preferences
                 .create(preference)
