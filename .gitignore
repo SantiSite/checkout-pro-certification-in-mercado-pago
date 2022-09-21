@@ -1,0 +1,15 @@
+/node_modules
+.vscode
+.idea
+.env*.local
+.env.production.local
+.env.development.local
+/.next/
+/out/
+/build
+.vercel
+npm-debug.log
+.pnpm-debug.log
+yarn-error.log
+yarn-debug.log
+

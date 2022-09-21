@@ -1,0 +1,36 @@
+{
+  "name": "checkout-pro-certification-in-mercado-pago",
+  "version": "1.0.0",
+  "description": "This project is for the certification of the Checkout Pro in Mercado Pago",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "mercadopago",
+    "nextjs",
+    "nodejs"
+  ],
+  "author": "Santiago-Restrepo-Villada <santiagorv246@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "flowbite": "1.5.3",
+    "flowbite-react": "0.1.11",
+    "mercadopago": "1.5.14",
+    "mongodb": "4.10.0",
+    "mongoose": "6.6.1",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.11",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "8.5.0",
+    "postcss": "8.4.14",
+    "tailwindcss": "3.1.8"
+  }
+}
